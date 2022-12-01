@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>LOginServ</servlet-name>
+		<display-name>LOginServ</display-name>
+		<description></description>
+		<servlet-class>com.controller.LOginServ</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ADDAsset</servlet-name>
+		<display-name>ADDAsset</display-name>
+		<description></description>
+		<servlet-class>com.controller.ADDAsset</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetDetails</servlet-name>
+		<display-name>GetDetails</display-name>
+		<description></description>
+		<servlet-class>com.controller.GetDetails</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddRole</servlet-name>
+		<display-name>AddRole</display-name>
+		<description></description>
+		<servlet-class>com.controller.AddRole</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LOginServ</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ADDAsset</servlet-name>
+		<url-pattern>/addassets</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetDetails</servlet-name>
+		<url-pattern>/getdetails</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddRole</servlet-name>
+		<url-pattern>/addrole</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+		<welcome-file>default.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
