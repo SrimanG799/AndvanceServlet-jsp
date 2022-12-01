@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+input{
+margin:10px;
+
+}
+.textbox{
+height:30px;
+
+
+}
+</style>
+</head>
+<body>
+<h1>RegistrationForm</h1>
+<fieldset>
+<form action="update" method="post">
+
+<label for="FirstName">FirstName</label><br>
+<input type="text" name="first"><br>
+<label for="LastName">LastName</label><br>
+<input type="text" name="second"><br>
+<label for="Mobile">Mobile</label><br>
+<input type="text" name="mobile"><br>
+<label for="Email">Email</label><br>
+<input type="email" name="email"><br>
+<label for="Gender">Gender</label>
+<label><input type="radio" name="gender" value="male">Male</label>
+    <label><input type="radio" name="gender" value="female">FeMale</label><br>
+  <label for="Skils">Skils</label>
+    <select name="skill"><br>
+<option>Java</option>
+<option>python</option>
+<option>C#</option>
+<option>Matlab</option>
+<option>VLSI</option>
+</select>
+<label for=""></label>
+<h3>Hobbies</h3>
+<input type="checkbox" name="id" value="Cricket"> Cricket
+<input type="checkbox" name="id" value="Walliball"> wallibal
+<input type="checkbox" name="id" value="Hacki"> hacki
+<input type="checkbox" name="id" value="Golf"> golf
+<input type="checkbox" name="id" value="chess"> chess <br>
+
+<label for="DateOfBirth">DateOfBirth</label>
+
+
+<input type="date" name="dob">
+<h3>additionalDetails</h3><br>
+<label for="info">information</label><br>
+<input type="textarea" name="info" class="textbox"><br>
+<label for="RollNumber">RollNumber</label><br>
+<input type="text" name="regnum">
+
+<input type="submit" value="update">
+
+
+
+</body>
+</html>

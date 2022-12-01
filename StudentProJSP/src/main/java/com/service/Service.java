@@ -1,0 +1,22 @@
+package com.service;
+
+import java.util.List;
+
+import com.model.Employee;
+
+public interface Service {
+	
+List<Employee> getDetail();
+	
+	void insert(Employee employee);
+	
+	void delete(int roll);
+	
+	void update(Employee employee);
+	
+	Employee getbyId(int roll);
+	
+	
+	
+
+}
