@@ -49,4 +49,9 @@ public class CruDInse extends HttpServlet {
 		doGet(request, response);
 	}
 
+public void add(int a,int b)
+{
+System.out.println(a+b);
+
+}
 }
